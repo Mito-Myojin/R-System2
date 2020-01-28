@@ -7,13 +7,20 @@
 
 # Usage
 1. 
+1. 以下のコードによりノードを立ち上げる。
     ```
     $ rosrun kadai_pkg count.py
     ```
     ```
     $ rosrun kadai_pkg twice.py
     ```
-2.
+2. 
+    ```
+    $ rostopic echo /count_up
+    ```
+    ```
+    $ rostopic echo /twice
+    ```
 
 # Requirement
 - Raspberry Pi 3 モデルB
