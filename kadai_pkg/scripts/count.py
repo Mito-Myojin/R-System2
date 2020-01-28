@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+# SPDX-License-Identifier：GPL-3.0
+
 import rospy
 from std_msgs.msg import Int32
 
