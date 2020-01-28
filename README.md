@@ -7,4 +7,4 @@
 # 使用法
 
 # 用件
--Raspberry Pi 3 モデルB
+- Raspberry Pi 3 モデルB
