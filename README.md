@@ -1,5 +1,6 @@
 # R-System2
 講義の課題2として提出したコードです。
+1ずつ増加する数値をコマンドライン上に
 
 # Demo
 
@@ -7,9 +8,11 @@
 
 # Usage
 1. 以下のコードによりノードを立ち上げる。コマンドはそれぞれ別ウィンドウで行うこと。
+    count.py では時間経過とともにインクリメントされた数値を作り出す。
     ```
     $ rosrun kadai_pkg count.py
     ```
+    twice.py では count.py で作り出された数値を2倍にしている。
     ```
     $ rosrun kadai_pkg twice.py
     ```
