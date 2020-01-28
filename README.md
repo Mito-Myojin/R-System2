@@ -1,10 +1,12 @@
 # R-System2
-講義の課題2として提出したコードです。
-1ずつ増加する数値をコマンドライン上に
+数値を生成し、受け取り先で加工してまたデータを出す。
 
 # Demo
+https://youtu.be/qLfY98hApzo
 
 # Features
+- 数値の生成
+- 生成された数値の倍化
 
 # Usage
 1. 以下のコードによりノードを立ち上げる。コマンドはそれぞれ別ウィンドウで行うこと。<br> 
@@ -23,6 +25,7 @@
     ```
     $ rostopic echo /twice
     ```
+3. 停止する際は「Ctrl+C」を用いる。
 
 # Requirement
 - Raspberry Pi 3 モデルB
