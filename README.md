@@ -6,15 +6,14 @@
 # Features
 
 # Usage
-1. 
-1. 以下のコードによりノードを立ち上げる。
+1. 以下のコードによりノードを立ち上げる。コマンドはそれぞれ別ウィンドウで行うこと。
     ```
     $ rosrun kadai_pkg count.py
     ```
     ```
     $ rosrun kadai_pkg twice.py
     ```
-2. 
+2. 各ノードからデータを取得する。コマンドはそれぞれ別ウィンドウで行うこと。
     ```
     $ rostopic echo /count_up
     ```
