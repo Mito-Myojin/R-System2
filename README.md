@@ -42,15 +42,10 @@
 - Ubuntu18.04.3(ARM64)
 - ROS Melodic
 - WiringPi
-```
-    $ echo 0 > /dev/myled0    // LEDの消灯
-    $ echo 1 > /dev/myled0    // LEDの点灯
-    $ echo 2 > /dev/myled0    // LEDを108回点滅
-    ```
 
 # Extra
 WiringPiの用意
-    ```
+```
     $ git clone https://github.com/hardkernel/wiringPi 
     $ cd wiringPi
     $ ./build
