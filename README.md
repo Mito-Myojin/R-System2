@@ -1,5 +1,6 @@
 # R-System2
-数値を生成し、受け取り先で加工してまたデータを出す。
+数値を生成し、受け取り先で加工してまたデータを出す。<br>
+また、受け取ったデータに合わせてLEDを転倒させる。
 
 # Demo
 https://youtu.be/qLfY98hApzo
@@ -7,21 +8,29 @@ https://youtu.be/qLfY98hApzo
 # Features
 - 数値の生成
 - 生成された数値の倍化
+- count.py で3が生成された場合にLEDを点灯
 
 # Usage
-1. 以下のコードによりノードを立ち上げる。コマンドはそれぞれ別ウィンドウで行うこと。<br> 
+1. 以下のコードによりノードを立ち上げる。<br> 
     count.py では時間経過とともにインクリメントされた数値を作り出す。
     ```
     $ rosrun kadai_pkg count.py
     ```
+2. count.py 実行後、以下のコードが利用可能となる。各コマンドはそれぞれ別ウィンドウで行うこと。<br>
     twice.py では count.py で作り出された数値を2倍にしている。
     ```
     $ rosrun kadai_pkg twice.py
     ```
-2. 各ノードからデータを取得する。コマンドはそれぞれ別ウィンドウで行うこと。
+    LED.py では count.py で作り出された数値が3の倍数である時にLEDを転倒させる.
+    ```
+    $ rosrun kadai_pkg LED.py
+    ```
+3. 各ノードが生成している数値の確認。コマンドはそれぞれ別ウィンドウで行うこと。<br>
+    twice.py で生成された数値の確認用。
     ```
     $ rostopic echo /count_up
     ```
+    twice.py で生成された数値の確認用。
     ```
     $ rostopic echo /twice
     ```
@@ -31,3 +40,4 @@ https://youtu.be/qLfY98hApzo
 - Raspberry Pi 3 モデルB
 - Ubuntu18.04.3(ARM64)
 - ROS Melodic
+- WiringPi
