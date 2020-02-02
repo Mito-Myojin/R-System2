@@ -13,7 +13,7 @@ n = 0
 
 def three(message):
     global n
-    n = message.data % 9
+    n = message.data % 
 
 if __name__ == '__main__':
     rospy.init_node('LED')
