@@ -17,21 +17,21 @@
     ```
     $ rosrun kadai_pkg count.py
     ```
-2. count.py 実行後、以下のコードが利用可能となる。各コマンドはそれぞれ別ウィンドウで行うこと。<br>
+2. count.py 実行後、以下のコードが利用可能となる。コードはそれぞれ別ウィンドウで行うこと。<br>
     twice.py では count.py で作り出された数値を2倍にしている。
     ```
     $ rosrun kadai_pkg twice.py
     ```
-    LED.py では count.py で作り出された数値が3の倍数である時にLEDを転倒させる.
+    LED.py では count.py で作り出された数値が3の倍数である時にLEDを点灯させる.
     ```
     $ rosrun kadai_pkg LED.py
     ```
-3. 各ノードが生成している数値の確認。コマンドはそれぞれ別ウィンドウで行うこと。<br>
-    twice.py で生成された数値の確認用。
+3. 各ノードが生成している数値の確認。コードはそれぞれ別ウィンドウで行うこと。<br>
+    twice.py で生成された数値の確認。
     ```
     $ rostopic echo /count_up
     ```
-    twice.py で生成された数値の確認用。
+    twice.py で生成された数値の確認。
     ```
     $ rostopic echo /twice
     ```
