@@ -50,4 +50,3 @@ WiringPiの用意
     $ cd wiringPi
     $ ./build
     $ gpio -v  // インストール確認用
-    ```
