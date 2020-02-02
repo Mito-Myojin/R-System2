@@ -5,7 +5,7 @@
   <description>Robot-system kadai2</description>
 
   <maintainer email="s17c1126dv@s.chibakoudai.jp">Mito Myojin</maintainer>
-  <license>LGPLv3</license>
+  <license>GPLv3</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
