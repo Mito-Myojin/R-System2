@@ -46,8 +46,8 @@
 # Extra
 WiringPiの用意
     ```
-    $ git clone https://github.com/hardkernel/wiringPi
-    $ cd wiringPi
-    $ ./build
-    $ gpio -v  // インストール確認用
+    $ git clone https://github.com/hardkernel/wiringPi<br> 
+    $ cd wiringPi<br> 
+    $ ./build<br> 
+    $ gpio -v  // インストール確認用<br> 
     ```
