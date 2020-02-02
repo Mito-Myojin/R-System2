@@ -1,9 +1,10 @@
 # R-System2
 数値を生成し、受け取り先で加工してまたデータを出す。<br>
-また、受け取ったデータに合わせてLEDを転倒させる。
+また、受け取ったデータに合わせてLEDを点灯させる。
 
 # Demo
-https://youtu.be/qLfY98hApzo
+数値の生成と加工・出力 : https://youtu.be/qLfY98hApzo<br>
+3の倍数でLチカ : 
 
 # Features
 - 数値の生成
@@ -41,3 +42,12 @@ https://youtu.be/qLfY98hApzo
 - Ubuntu18.04.3(ARM64)
 - ROS Melodic
 - WiringPi
+
+# Extra
+WiringPiの用意
+    ```
+    $ git clone https://github.com/hardkernel/wiringPi
+    $ cd wiringPi
+    $ ./build
+    $ gpio -v  // インストール確認用
+    ```
