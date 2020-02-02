@@ -4,7 +4,7 @@
 
 # Demo
 数値の生成と加工・出力 : https://youtu.be/qLfY98hApzo<br>
-3の倍数でLチカ : 
+3の倍数でLチカ : https://youtu.be/m2gVROJvdu8
 
 # Features
 - 数値の生成
